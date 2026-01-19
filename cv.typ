@@ -7,7 +7,7 @@
   address: "Valencia, Spain",
   lastupdated: "true",
   pagecount: "true",
-  date: "2025-01-17",
+  date: "2025-01-19",
   contacts: (
     (text: "LinkedIn", link: "https://www.linkedin.com/in/matias-torreblanca/"),
     (text: "+34 627384994", link: "tel:+34627384994"),
@@ -15,75 +15,98 @@
   ),
 )
 
-
-
-// about
+// About - Concise, niche-focused
 #section[About Me]
-#descript[Senior Frontend Developer with 6 years' experience building responsive web applications in the FinTech sector. Expert in JavaScript, React, and TypeScript for SaaS platforms. Proven track record developing real-time dashboards and e-commerce applications with focus on performance optimization.]
+#descript[Senior Frontend Developer specializing in FinTech, payments, and KYC compliance with 6 years of experience. Built real-time analytics dashboards, payment integrations (Stripe/dLocal), and identity verification flows serving 300k+ daily users. Previously at Mercado Libre (300M+ users).]
 
 #sectionsep
-//Experience
+
+// Experience
 #section("Experience")
+
 #job(
-  position: "Product Engineer | Senior Frontend Developer",
-  institution: [Sanlo.io],
+  position: "Sr Frontend Engineer",
+  institution: [Parser],
   location: "Remote",
-  date: "2022-2025",
+  date: "Jul 2025 - Present",
   description: [
-    - Owned complete frontend architecture for SaaS platform serving video game studios, taking full responsibility for React and TypeScript implementation and business logic.
-
-    - Launched revenue-generating product feature by developing no-code e-commerce builder enabling virtual goods sales outside App Stores, directly creating new income streams for clients.
-
-    - Built real-time dashboards providing video game studios with live analytics and data visualization for business decision-making.
-
-    - Drove product innovation through AI research by participating in hackathons to explore cutting-edge product ideas, synthesizing findings that directly influenced the strategic product roadmap decisions.
-
-    - Delivered scalable web application solutions optimized for performance in fast-paced development environment.
+    - Integrated Unico KYC library into authentication flows, implementing identity verification, document upload, and liveness detection for 300k daily users in the Brazilian market.
+    - Led architecture of the new Wallet product, migrating from CRA to Vite + Tailwind to support future React versions, reducing build times by 36%.
+    - Architected Lit-based web components for Login and Registration flows using Event Bus pattern for cross-component communication.
+    - Ran product demos for stakeholders to validate features and gather feedback before production releases.
   ],
 )
 
 #job(
-  position: "Senior Frontend Engineer | Web Application Developer",
-  institution: [Spark Digital],
+  position: "Product Engineer",
+  institution: [Sanlo],
   location: "Remote",
-  date: "2021-2022",
+  date: "Dec 2022 - Jul 2025",
   description: [
-    - Delivered enterprise-level solutions for major U.S. wedding industry clients, including The Knot and The Bash, serving large-scale user bases.
+    - Built Webshop Builder, a no-code e-commerce platform with Stripe/dLocal payments enabling game studios to sell virtual goods outside App Store fees.
+    - Developed Financial Analytics, real-time dashboards displaying revenue, ROI, and performance metrics for 50 game studios handling millions of data rows.
+    - Led migration from Styled Components to Chakra UI, improving development velocity by 40%.
+    - Owned frontend technical decisions with direct CTO/CEO feedback, and drove improvements to testing practices across the frontend codebase.
+  ],
+)
 
-    - Led performance transformation initiatives by driving code optimization projects that resulted in measurable improvements to application speed and long-term maintainability.
+#job(
+  position: "Sr Frontend Engineer",
+  institution: [MajorKey],
+  location: "Remote",
+  date: "Jul 2022 - Dec 2022",
+  description: [
+    - Built frontend from scratch for a platform connecting college athletes with university coaches for scholarship opportunities using React and Redux Toolkit.
+    - Collaborated with designers to translate Figma specs into responsive, pixel-perfect interfaces.
+  ],
+)
 
-    - Shipped robust frontend applications that met enterprise standards for stability and performance in production environments.
+#job(
+  position: "Frontend Engineer",
+  institution: [Spark Digital | Intive],
+  location: "Remote",
+  date: "Mar 2022 - Jul 2022",
+  description: [
+    - Shipped features for The Knot, a leading U.S. wedding e-commerce platform, using Next.js, GraphQL, and Contentful CMS.
+    - Optimized page performance and integrated headless CMS for dynamic content management.
+  ],
+)
 
-    - Established best practices for responsive design and cross-platform compatibility across multiple high-traffic web applications.
+#job(
+  position: "Frontend Developer",
+  institution: [Mercado Libre],
+  location: "Argentina",
+  date: "Mar 2019 - Sep 2021",
+  description: [
+    - Migrated Addresses microfrontend from Handlebars to React, improving address management for millions of users across 5 LATAM countries.
+    - Shipped loan application flows for Mercado Crédito, a consumer finance product within Mercado Pago serving millions of users.
+    - Mentored junior developers on React best practices and participated in frontend guild meetings defining stack and coding standards.
+    - Ran product demos for Product Owners to validate features and ensure alignment with business requirements.
   ],
 )
 
 #section("Skills")
 #oneline-title-item(
   title: "Frontend",
-  content: [JavaScript ES6+, TypeScript, React.js, Next.js, Astro, HTML5, CSS3, Shadcn, Styled Components, Chakra UI, Framer Motion, Redux Toolkit, React Native],
+  content: [JavaScript ES6+, TypeScript, React, Next.js, HTML5, CSS3, Tailwind, Shadcn, Chakra UI, Redux Toolkit, React Query, Vite, Lit Web Components],
 )
 #oneline-title-item(
   title: "Backend & Tools",
-  content: [Node.js, Express.js, Python, Supabase, Jest, React Testing Library, Playwright, Vercel AI SDK, Git],
+  content: [Node.js, Python, GraphQL, REST APIs, Contentful CMS, Jest, React Testing Library, Git, CI/CD, Stripe, dLocal],
+)
+#oneline-title-item(
+  title: "Industries",
+  content: [FinTech, Payments, KYC/Compliance, E-commerce, Real-time Analytics, SaaS Platforms],
 )
 
 #sectionsep
-#section("Projects")
-#project(
-    title: [Shipitmat.dev],
-    date: [2025],
-    description: [Personal website showcasing frontend development projects and portfolio. Built with Astro and Shadcn components for optimal performance and modern design.]
-)
 
-
-#sectionsep
 #section("Education")
 #education(
   institution: [Universidad Siglo 21],
-  major: [Software Engineer],
-  date: "2016-2020",
+  major: [Software Engineering],
+  date: "2016 - 2020",
   location: "Argentina",
 )
 
-#set document(author: "Matias Torreblanca", title: "Matias Torreblanca CV")
+#set document(author: "Matias Torreblanca", title: "Matias Torreblanca - Senior Frontend Developer")
