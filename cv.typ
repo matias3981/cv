@@ -65,7 +65,7 @@
   position: "Frontend Engineer",
   institution: [Spark Digital | Intive],
   location: "Remote",
-  date: "Mar 2022 - Jul 2022",
+  date: "Sep 2021 - Jul 2022",
   description: [
     - Shipped features for The Knot, a leading U.S. wedding e-commerce platform, using Next.js, GraphQL, and Contentful CMS.
     - Optimized page performance and integrated headless CMS for dynamic content management.
